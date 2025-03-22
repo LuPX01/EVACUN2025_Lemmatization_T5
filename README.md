@@ -18,8 +18,8 @@ EVACUN2025_T5_Lemmatization/
 │   ├── Raw_Lemma/             # Scripts for raw lemma lemmatization
 │   └── Generalized_Lemma/     # Scripts for generalized lemma lemmatization
 ├── mT5/
-│   ├── Raw_Lemma/
-│   └── Generalized_Lemma/
+│   ├── Raw_Lemma/             # Scripts for raw lemma lemmatization
+│   └── Generalized_Lemma/     # Scripts for generalized lemma lemmatization
 ├── README.md
 └── requirements.txt
 ```
@@ -57,14 +57,12 @@ You can run them directly in PyCharm by opening the desired script and clicking 
 ### 1. Train the model
 
 ```bash
-cd Raw_Lemma
 python ByT5_TrainAndEval_Raw.py
 ```
 
 For generalized version:
 
 ```bash
-cd ../Generalized_Lemma
 python ByT5_TrainAndEval_Generalized.py
 ```
 
@@ -104,11 +102,3 @@ model = T5ForConditionalGeneration.from_pretrained("your-username/ByT5_small_Raw
 ## 📄 License
 
 This project is released under the MIT License.
-
----
-
-## 📬 Contact
-
-For questions or suggestions, feel free to open an issue or contact the author at:
-
-📧 your.email@example.com
