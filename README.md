@@ -14,11 +14,14 @@ We provide two versions of the lemmatization model:
 
 ```
 EVACUN2025_T5_Lemmatization/
-├── Raw_Lemma/                 # Scripts for raw lemma lemmatization
-├── Generalized_Lemma/        # Scripts for generalized lemma lemmatization
-├── models/                   # Trained model files (excluding large weights)
-├── requirements.txt
-└── README.md
+├── ByT5/
+│   ├── Raw_Lemma/             # Scripts for raw lemma lemmatization
+│   └── Generalized_Lemma/     # Scripts for generalized lemma lemmatization
+├── mT5/
+│   ├── Raw_Lemma/
+│   └── Generalized_Lemma/
+├── README.md
+└── requirements.txt
 ```
 
 ---
@@ -41,17 +44,15 @@ me-lul-tu₄      mēlultu I
 
 ---
 
-## 🛠️ Installation
-
-Install required packages:
-
-```bash
-pip install -r requirements.txt
-```
-
----
-
 ## 🚀 Usage
+
+Each subfolder contains three scripts:
+
+- `TrainAndEval_*.py` – for training and evaluation
+- `Eval_*.py` – for evaluating the model on a test set
+- `Predict_INPUT_*.py` – for interactive inference
+
+You can run them directly in PyCharm by opening the desired script and clicking "Run".
 
 ### 1. Train the model
 
