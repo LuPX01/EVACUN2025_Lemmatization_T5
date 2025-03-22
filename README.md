@@ -1,7 +1,7 @@
 # EVACUN2025_Lemmatization_T5
 Lemmatization using T5 model for cuneiform languages.
 
-This repository contains code for lemmatization of cuneiform languages (Akkadian and Sumerian) using the [ByT5](https://huggingface.co/docs/transformers/model_doc/byt5) architecture. The system is developed for the EvaCun 2025 Shared Task.
+This repository contains code for lemmatization of cuneiform languages (Akkadian and Sumerian) using the [ByT5](https://huggingface.co/docs/transformers/model_doc/byt5) and [mT5](https://huggingface.co/docs/transformers/model_doc/mt5) architecture. The system is developed for the EvaCun 2025 Shared Task.
 
 We provide two versions of the lemmatization model:
 
