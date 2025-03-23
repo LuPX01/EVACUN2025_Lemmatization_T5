@@ -93,8 +93,8 @@ The trained model will be available on Hugging Face:
 ```python
 from transformers import T5ForConditionalGeneration, ByT5Tokenizer
 
-tokenizer = ByT5Tokenizer.from_pretrained("your-username/ByT5_small_RawLemma")
-model = T5ForConditionalGeneration.from_pretrained("your-username/ByT5_small_RawLemma")
+tokenizer = ByT5Tokenizer.from_pretrained("PXXL/EVACUN2025_ByT5_small_RawLemma")
+model = T5ForConditionalGeneration.from_pretrained("PXXL/EVACUN2025_ByT5_small_RawLemma")
 ```
 
 ---
